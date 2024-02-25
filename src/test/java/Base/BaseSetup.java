@@ -24,7 +24,7 @@ public class BaseSetup {
     }
 
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\manager\\IdeaProjects\\herokuApp\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
         webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
